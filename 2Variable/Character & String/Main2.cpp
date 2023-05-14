@@ -11,6 +11,6 @@ int main()
 
     cout << "Welcome  " << name << endl;
 
-    getch();
+   getch();
 
 }

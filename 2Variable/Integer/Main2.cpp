@@ -22,4 +22,10 @@ int main()
          << "Second number is :" << num2 << endl;
 
          // both output formate is correct.
+
+
+    int sum = num1 + num2;
+    cout << "The sum is : " << sum << endl;
+
+    getch();
 }
