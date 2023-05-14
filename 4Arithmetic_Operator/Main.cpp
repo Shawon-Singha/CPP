@@ -8,7 +8,7 @@ int main()
 {
     int a, b;
 
-    cout << "enter the value of b :";
+     cout << "enter the value of b :";
     cin >> b;
 
     a = b + 7;
