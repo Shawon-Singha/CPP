@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int mian()
+int main()
 {
     char ch;
 
@@ -17,8 +17,8 @@ int mian()
     cin >> ch1;
 
 
-    cout << "Your char is : " << ch;
-    cout << "Your char1 is : " << ch1;
+    cout << "Your char is : " << ch << endl;
+    cout << "Your char1 is : " << ch1 <<endl;
   
 
     return 0;

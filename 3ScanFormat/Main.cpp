@@ -5,7 +5,7 @@ int main()
 {
     int num;
 
-    cout << "Enter ethe number : ";
+    cout << "Enter the number : ";
 
     cin >> num;
 

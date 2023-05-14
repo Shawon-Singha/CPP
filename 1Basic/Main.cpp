@@ -1,4 +1,5 @@
 #include <iostream>
+#include<conio.h>
 using namespace std;
 
 int main()
@@ -17,8 +18,8 @@ int main()
     cout << "Anik Singha\t";
     cout << "Diu\n";
 
-    /*print some thing inside double cotation, then use \"......\" */
-    cout << "\"Welcome\"\n";
+    /*  print some thing inside double cotation, then use \"......\" */
+    cout << "\"Welcome\"\n"; 
 
-    return 0;
+   getch();
 }
