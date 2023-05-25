@@ -20,7 +20,7 @@ int main(){
 
     /* 
     same way ; 
-
+    x -= 5 means x = x-5
      x *=10 means x = x * 10
      y *=5 means y = y*5;
     */
