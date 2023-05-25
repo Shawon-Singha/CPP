@@ -1,1 +1,0 @@
-enter the value of b : Value of a is :23
