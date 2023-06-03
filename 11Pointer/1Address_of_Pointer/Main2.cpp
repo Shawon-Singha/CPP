@@ -1,29 +1,27 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
-    char m; 
+int main()
+{
+    char m;
     /*
-    we do not use any value that's why it print 'Null'
+    we do not use any value that's why it print empty.
     */
 
-   // but
-
-   char n = 'a'; // we put value ,that why we see the address
+    // but
 
     cout << &m << endl;
 
-    cout << (void *) &n << endl;
+    char n = 'a'; // we put value ,that why we see the address
 
-    int arry[100]; 
+    cout << (void *)&n << endl; // special behaviour
+
+    int arry[100];
     // array hold address itself...that why  no need to address sign
     cout << arry << endl;
 
     // but if we use ,there will be no error.
     cout << &arry << endl;
-
-
-    
 
     return 0;
 }
