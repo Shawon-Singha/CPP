@@ -8,7 +8,7 @@ class Student {
     double gpa;
 
     void display(){
-        cout << "Id is : " << id << endl
+        cout << "Id is : " << id << endl 
              << "GPA is : " << gpa <<endl;
     }
 
